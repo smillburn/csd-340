@@ -1,0 +1,52 @@
+h1{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+}
+
+.back-nav{
+    margin-top: 60%;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline;
+}
+
+.list-container{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    width: 45%;
+    font-weight: 300;
+}
+
+#favorite-books {
+    float: left;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#things-learned {
+    float: right;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+ul{
+    list-style-position: inside;
+    list-style: upper-roman;
+}
