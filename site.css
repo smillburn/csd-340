@@ -1,0 +1,31 @@
+/*
+ * Name: Skyler Millburn
+ * Date: 8/22/2021
+ * Assignment: 3.2
+ * Reference: https://visme.co/blog/website-color-schemes/ 16 for color
+*/
+#container{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    margin: 50px 100px 100px 0px;
+    background-color: #116466;
+}
+
+h1, h2, h3, h4{
+    color: #116466;
+    background-color: #2C3531;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px
+}
+
+a {
+    color: #D1E8E2;
+    text-decoration: none;
+}
+a:hover { 
+    color: #FFCB9A;
+    text-decoration: underline;
+}
+a:visited {
+    color: #D9B08C;
+}
