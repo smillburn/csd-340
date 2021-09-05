@@ -1,0 +1,51 @@
+/*
+ * Name: Skyler Millburn
+ * Date: 9/5/2021
+ * Assignment: 5.2
+*/
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery-item{
+    border: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.back-nav{
+    float: right;
+}
+
+h1, h3, figcaption{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+    color: rgb(202, 35, 130)
+}
+
+h1{
+    color: rgb(47, 35, 212);
+    text-align: center;
+}
+
+h3{
+    color: rgb(206, 126, 36);
+    text-align: center;
+}
+
+img{
+    width: 350px;
+    height: 400px;
+}
