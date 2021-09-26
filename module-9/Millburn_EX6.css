@@ -1,7 +1,7 @@
 /*
  * Name: Skyler Millburn
- * Date: 9/19/2021
- * Assignment: 7.2
+ * Date: 9/26/2021
+ * Assignment: 9.2
 */
 
 body{
@@ -41,8 +41,8 @@ h1{
     color:skyblue;
 }
 
-#container {
-    margin: 2% 5% 0 5%;
+#container{
+    margin: 2% 5% 100px 5%;
     padding: 10px;
 }
 
@@ -69,22 +69,48 @@ h1{
 
 footer {
     background-color: skyblue;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
+    font-style: italic;
+    font-weight: 400;
 }
 
 footer p{
-    font-weight: 400;
     float: right;
-    padding-right: 10px;
-    font-style: italic;
+    color: white;
+    width: 100%;
 }
 
 footer a{
     text-decoration: none;
     color: white;
+    float: right;
+    padding-right: 20px;
 }
 footer a:hover{
     text-decoration: underline;
+}
+
+#copywright {
+    float: left;
+    padding-left: 10px;
+}
+
+#movies{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
